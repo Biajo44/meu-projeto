@@ -1,0 +1,187 @@
+ /* configurção do Conteúdo principal*/
+
+body{
+      padding: 0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+
+      /*Fundo pixels*/
+
+      background-color: #ffffff;
+      background-image: radial-gradient(#e0e0e0 3px, transparent 1px);
+      background-size: 20px 20px;
+      animation: movePixels 2s linear infinite;
+    }
+
+     @keyframes movePixels{
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 20px 20px;
+        }
+     }
+
+   .conteudos{
+    width: 100%;
+    margin: 20px auto;
+   
+}
+
+  .container {
+       background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+       min-height: 100vh;
+    }
+
+    
+    /*Menu*/
+
+ .menu{
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+nav a{
+    background-color: #e6e6fa;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+     padding: 10px 10px;
+     font-weight: bold;
+}
+
+nav a:hover{
+     color: gray;
+ }
+
+ .texto{
+        flex: 1;
+        padding: 30px;
+    line-height: 25px;
+    text-align: center;
+
+
+ }
+ 
+ .texto  h1, .texto h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: "Courier New", monospace;
+    text-shadow: 2px 2px 6px powderblue;
+    text-align: justify;
+
+ }
+
+ .texto p{
+    text-align: justify;
+    font-family: tahoma;
+ }
+
+    /*fim do menu*/
+
+
+
+     /* lado direito*/
+
+ .lateral{
+    min-height: 120vh;
+     background-color: #e6e6fa;
+     color: black;
+     width: 400px;
+     margin: 0;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     box-sizing: border-box;
+   display: flex;
+    padding: 10px;
+ }
+ .lateral h2{
+     text-shadow: 2px 2px 6px powderblue;
+ }
+
+
+
+     /*configuuração foto*/
+ 
+
+    .perfil{
+        margin-bottom: 20px;
+        text-align: center;
+     }
+ .foto{
+     width: 130px;
+     height: 130px;
+     border-radius: 70%;
+     margin: 0 auto 10px auto;
+     overflow: hidden;
+     border: 4px solid #d8bfd8;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /*sombra */
+ }
+
+ .foto img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+    /*Fim da foto*/
+
+
+  /*personalização do contato e habilidade*/
+
+  .contato{
+    text-shadow: 2px 2px 6px powderblue;
+    margin-top: 15px;
+    font-size: 24px;
+  }
+
+  .contato a{
+   
+     gap: 5px;
+     font-size: 16px;
+     text-decoration: none;
+  }
+   
+  
+#habilidade {
+  text-align: center; 
+}
+
+#habilidade p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.bolinha {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  border-radius: 60%;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.bolinha.preenchida{
+    opacity: 1;
+}
+
+    /*Fim da configuração*/
+
+   
+
+
+
+
