@@ -1,136 +1,138 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Currículo de Joelma Dias</title>
-
-  <!---imagens favicon--->
-  <link rel="icon" type="image/jpg" href="icon.jpg">
-
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-    <!--Página de ícones criada no fontawesome-->
-  <script src="https://kit.fontawesome.com/7c69ce7261.js" crossorigin="anonymous"></script>
-
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo - Joelma Beatriz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!---- imagens favicon ---->
+  <link rel="icon" type="image/jpg" href="icon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body> 
 
-      <!-- Conteúdo principal-->
+<body class="bg-gray-100 text-gray-800 font-sans">
 
- <div class="container">
-  <div class="conteudos">
+  <!---- Cabeçalho ---->
+   <header class="bg-gradient-to-r from-indigo-700 to-purple-600 text-white shadow-md">
 
-    <!---MEnu--->
-    
-    <div class="menu">
-      <nav>
-        <a href="index.html">Sobre mim</a>
-        <a href="informacoesp.html">Informações pessoais</a>
-        <a href="objetivo.html">Objetivo</a>
-      </nav>
+  <!---- Barra superior ---->
+  <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+    <h1 class="text-lg font-bold">Joelma Beatriz</h1>
 
-      <br>
-
-      <div class="texto">
-        <h1>Joelma Beatriz Oliveira Dias</h1>
-        <br>
-        <h2>Sobre mim</h2>
-        <p>Olá, me chamo Joelma Beatriz, tenho 20 anos e sou <br> estudante de Análise e Desenvolvimento de sistema, <br> não tinha muito interesse nessa área por acha <br> que não me encaixaria e não conseguiaria aprende, <br> mas hoje e uma área que me identifico muito e pretendo a cada <br> dia mais melhorar minha habilidade para me <br> torna uma desenvolvendora Front-end.</p>
-
-     <br>
-
-      <div>
-        <h2>Formação</h2>
-        <p>Ensino Médio completo (2023)
-          <br>
-        Análise e desenvolvimento de sistema - Estácio (cursando)</p>
-      </div>
-       </div>
-    </div>
+    <!---- Menu desktop ---->
+    <nav class="hidden md:flex space-x-6 text-sm md:text-base">
+      <a href="#formacao" class="menu-link hover:text-indigo-300">Formação</a>
+      <a href="#cursos" class="menu-link hover:text-indigo-300">Cursos</a>
+      <a href="#habilidades" class="menu-link hover:text-indigo-300">Habilidades</a>
+      <a href="#projetos" class="menu-link hover:text-indigo-300">Projetos</a>
+      <a href="#softskills" class="menu-link hover:text-indigo-300">Soft Skills</a>
+      <a href="#links" class="menu-link hover:text-indigo-300">Links</a>
+      <a href="#contato" class="menu-link hover:text-indigo-300">Contato</a>
+    </nav>
   </div>
 
-
-
-  <!-- Lateral-->
-
-  <div class="lateral">
-    <div class="perfil">
-      <div class="foto">
-        <img src="perfil.jpg">
-      </div>
-
-      <h2>Contato</h2>
-
-      <div class="contato">
-        <a href="https://wa.me/5591986286027" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-whatsapp"></i> (91) 98628-6027
-        </a>
-
-        <br>
-
-        <a href="mailto:joelmabeatriz@gmail.com" target="_blank" rel="noopener noreferrer">
-          <i class="fa-regular fa-envelope"></i> joelmabeattriz2019@gmail.com
-        </a>
-      </div>
+  <!---- Nome e foto ---->
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between p-6">
+    <div class="text-center md:text-left">
+      <h2 class="text-3xl font-bold">Joelma Beatriz Oliveira Dias</h2>
+      <p class="mt-2 text-sm">Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonada por tecnologia e aprendizado contínuo.</p>
     </div>
-
-
-
-    <!-- Habilidades-->
-
-    <div id="habilidade">
-      <h2>Habilidades</h2>
-
-      <p>HTML
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha"></span>
-        <span class="bolinha"></span>
-      </p>
-
-      <p>CSS
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha"></span>
-        <span class="bolinha"></span>
-      </p>
-
-      <p>JavaScript
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha"></span>
-        <span class="bolinha"></span>
-        <span class="bolinha"></span>
-      </p>
-
-      <p>Python
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha"></span>
-        <span class="bolinha"></span>
-        <span class="bolinha"></span>
-      </p>
-
-      <p>Pacote Office
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha preenchida"></span>
-        <span class="bolinha"></span>
-        <span class="bolinha"></span>
-      </p>
-    </div>
+    <img src="perfil.jpg" alt="Foto de Joelma Beatriz" class="w-48 h-48 rounded-full border-4 border-white mt-4 md:mt-0">
   </div>
-</div>
-  
-
-   <!---fim das bolinhas, Amém!--->
-
+</header>
  
 
-  </body>
-   </html>
+  <!---- Conteúdo principal ---->
+  <main class="max-w-6xl mx-auto p-6 grid md:grid-cols-3 gap-6 bg-white shadow rounded-lg">
+
+    <!---- Formação ---->
+    <section id="formacao" class="p-5 bg-gray-50 rounded-lg shadow">
+      <h2 class="text-xl font-semibold text-indigo-700 mb-3">🎓 Formação</h2>
+      <ul class="space-y-2">
+        <li>Ensino Médio Completo - 2023</li>
+        <li><strong>Análise e Desenvolvimento de Sistemas</strong> - Estácio (Cursando)</li>
+      </ul>
+    </section>
+
+    <!---- Cursos -->
+    <section id="cursos" class="p-5 bg-gray-50 rounded-lg shadow">
+      <h2 class="text-xl font-semibold text-indigo-700 mb-3">📋 Cursos Complementares</h2>
+      <ul class="space-y-2">
+        <li>Auxiliar Administrativo - Brastec</li>
+      </ul>
+    </section>
+
+    <!---- Habilidades ---->
+    <section id="habilidades" class="p-5 bg-gray-50 rounded-lg shadow">
+      <h2 class="text-xl font-semibold text-indigo-700 mb-3">🚀 Habilidades</h2>
+      <ul class="space-y-2">
+        <li>HTML, CSS, tailwind | JavaScript, Python, Ruby, C, Java | Github, Git | PHP, MySQL</li>
+        <li>Pacote Office</li>
+      </ul>
+    </section>
+
+    <!---- Projetos ---->
+    <section id="projetos" class="p-5 bg-gray-50 rounded-lg shadow col-span-3">
+      <h2 class="text-xl font-semibold text-indigo-700 mb-3">💻 Projetos Pessoais e Acadêmicos</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>PDV Petshop (Pytron + SQLite3)<br>
+          Sistema de ponto de venda para petshops, desenvolvido em equipe, com foco em gestão de produtos e vendas.
+        </li>
+
+        <li>Alert Saúde (Java, Swing)<br>
+          Aplicativo em Java voltado para alertas e monitoramento de saúde.
+        </li>
+
+        <li>Pulse API (em desenvolvimento)<br>
+          API para monitoramento de dados em tempo real.
+        </li>
+
+        <li>Ruby Task Manager (em desenvolvimento)<br>
+          Gerenciador de tarefas simples, desenvolvido em Ruby.
+        </li>
+
+        <li>Jewelry Catalog (HTML, CSS, JS, PHP)<br>
+          Catálogo digital de joias com interface web, utilizando PHP para backend e MySQL para banco de dados.
+        </li>
+      </ul>
+    </section>
+
+    <!---- Soft Skills e Links lado a lado ---->
+    <section id="softskills" class="p-5 bg-gray-50 rounded-lg shadow col-span-2">
+      <h2 class="text-xl font-semibold text-indigo-700 mb-3">🤝 Soft Skills</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Comunicação eficaz</li>
+        <li>Trabalho em equipe</li>
+        <li>Organização e disciplina</li>
+        <li>Aprendizado contínuo</li>
+      </ul>
+    </section>
+
+    <section id="links" class="p-5 bg-gray-50 rounded-lg shadow col-span-1">
+      <h2 class="text-xl font-semibold text-indigo-700 mb-3">🔗 Links</h2>
+      <ul class="space-y-2">
+        <li><a href="https://github.com/Biajo44" target="_blank" class="text-indigo-600 hover:underline">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/joelma-dias-833320303/" target="_blank" class="text-indigo-600 hover:underline">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <!---- Contato ---->
+    <section id="contato" class="p-5 bg-gray-50 rounded-lg shadow col-span-3">
+      <h2 class="text-xl font-semibold text-indigo-700 mb-3">📞 Contato</h2>
+      <ul class="space-y-2">
+        <li>📧 <a href="mailto:joelmabeatriz2019@gmail.com" class="text-indigo-600 hover:underline">joelmabeatriz2019@gmail.com</a></li>
+        <li>📱 (91) 98452-7486</li>
+        <li>📍 Travessa Portugal, Nº 2751 - Castanhal/PA</li>
+      </ul>
+    </section>
+  </main>
+
+  <!---- Rodapé ---->
+  <footer class="bg-gradient-to-r from-indigo-700 to-purple-600 text-white text-center p-4 mt-8">
+    <p>© 2026 Joelma Beatriz Oliveira Dias</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
